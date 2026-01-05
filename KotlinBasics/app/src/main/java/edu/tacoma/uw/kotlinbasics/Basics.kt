@@ -11,7 +11,16 @@ fun main(){
     shoppingList.add("cooling System")
     shoppingList.remove("Graphics  Card RTX 3060")
     shoppingList.add("Graphhics Card RTX 4090")
-    println(shoppingList)
+//    println(shoppingList)
+
+//    for(item in shoppingList){
+//        println(item)
+//
+//    }
+
+    for (index in 0 until shoppingList.size){
+        println("item ${shoppingList[index]} is at index $index")
+    }
 }
 
 
