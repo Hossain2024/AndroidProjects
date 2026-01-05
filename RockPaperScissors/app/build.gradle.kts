@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "edu.tacoma.uw.kotlinbasics"
+    namespace = "edu.tacoma.uw.rockpaperscissors"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "edu.tacoma.uw.kotlinbasics"
+        applicationId = "edu.tacoma.uw.rockpaperscissors"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
